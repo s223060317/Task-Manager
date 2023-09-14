@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Task Manager</h1>
+        </header>
+        <main>
+            <div class="container">
+                <task-form></task-form>
+                <task-list></task-list>
+            </div>
+            <div class="container">
+                <project-form></project-form>
+                <project-list></project-list>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 Task Manager</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.30/dist/vue.global.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
